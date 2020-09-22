@@ -1,0 +1,10 @@
+cities:
+  - method: get
+    get: /cities
+
+  - method: create
+    get: /cities/add
+
+tours:
+  - method: get
+    get: /tours/tour/save
