@@ -77,8 +77,8 @@ export default {
     self.dison = true
     this.$api.cities.get()
       .then(function (response) {
-        console.log(response.data)
-        self.cities.push(...response.data)
+        console.log(response.data.cities)
+        self.cities.push(...response.data.cities)
         /*
         self.city = self.cities[0]
         self.name = 'test tour name'
